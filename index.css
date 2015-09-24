@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Raleway);
+
+body {
+	color:#60ba7e;
+	font-family: 'Raleway', sans-serif;
+	margin: 0px;
+
+
+}
+
+h1 {
+	display: inline-block;
+	margin-left: 15px;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	color: #60ba7e;
+	margin-right: 8px; 
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: blue;
+	background-color: yellow;
+}
+
+nav .right {
+	height: 68px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+h2 {
+	color: #4169e1;
+	font-size: 36px;
+	font-family: 'Raleway', sans-serif;
+
+}
+
+p {
+	color: black;
+	font-size: 22px;
+	font-family: 'Poiret One', sans-serif;
+	font-weight: bolder;
+}
+
+#home {
+	background-image: url("img/beach.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+
+
+.right {
+	width: 50%;
+	float: right;
+}
